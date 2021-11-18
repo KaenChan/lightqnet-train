@@ -1,0 +1,20 @@
+# Ignoring python bytecode files
+*.pyc
+
+# Ignoring temporal files
+*~
+
+# Ignoring pycharm idea folder
+.idea/
+
+# Ignoring build directories
+pyeer.egg-info/
+build/
+dist/
+
+# Ignoring CSV files
+*.csv
+
+# Ignoring TODO file
+TODO.txt
+/example_files/
