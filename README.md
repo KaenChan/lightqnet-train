@@ -28,6 +28,7 @@ https://github.com/deepinsight/insightface/blob/master/recognition/common/rec2im
 2. Modify the configuration files under ```configfig/``` folder.
 
 4. Start the training:
+
     ``` Shell
     python train_idq.py configfig/resface64_msarcface_with_mbv3_small_idq.py
     ```
@@ -35,15 +36,16 @@ https://github.com/deepinsight/insightface/blob/master/recognition/common/rec2im
 ### Testing
 
 We use lfw.bin, cfp_fp.bin, etc. from ms1m-retinaface-t1 as the test dataset.
-    
-    ```Shell
-    python evaluation/verification_risk_fnmr.py
-    ```
+
+``` Shell
+python evaluation/verification_risk_fnmr.py
+```
   
 ### Freeze
-    ```Shell
-    python freeze_idq.py --model_dir log/resface64_mbv3/20210128-150935
-    ```
+
+``` Shell
+python freeze_idq.py --model_dir log/resface64_mbv3/20210128-150935
+```
 
 ## <img src="https://image.flaticon.com/icons/svg/48/48541.svg" width="25"/> Pre-trained Model
 
