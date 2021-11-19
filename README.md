@@ -23,7 +23,7 @@ Decode it using the code:
 https://github.com/deepinsight/insightface/blob/master/recognition/common/rec2image.py
 
 ### Training
-1. Download the base model [ResFace64](https://drive.baidu.com/open?id=1MiC_qCj5GFidWLtON9ekClOCJu6dPHT4) and unzip the files under ```log/resface64```.
+1. Download the base model ResFace64 from [Baidu Drive](https://pan.baidu.com/s/1ACjDBxA0tWFXs70J4dDv2A) PW:v800 and unzip the files under ```log/resface64```.
 
 2. Modify the configuration files under ```configfig/``` folder.
 
