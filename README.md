@@ -11,7 +11,7 @@ Uncertainty Networks:
 + MobileNetv3-Small
 + Resnet18
 
-## <img src="https://image.flaticon.com/icons/svg/1/1383.svg" width="25"/> Usage
+##  Usage
 
 ### Preprocessing
 
@@ -41,13 +41,19 @@ We use lfw.bin, cfp_fp.bin, etc. from ms1m-retinaface-t1 as the test dataset.
 python evaluation/verification_risk_fnmr.py
 ```
   
-### Freeze
+### Freeze and Deploy
+
+Freeze
 
 ``` Shell
 python freeze_idq.py --model_dir log/resface64_mbv3/20210128-150935
 ```
 
-## <img src="https://image.flaticon.com/icons/svg/48/48541.svg" width="25"/> Pre-trained Model
+Deployment code
+
+https://github.com/KaenChan/lightqnet
+
+## Pre-trained Model
 
 #### ResFace64
 | Method | Download |
